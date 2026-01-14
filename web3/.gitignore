@@ -1,0 +1,22 @@
+# Hardhat folders
+artifacts/
+cache/
+typechain-types/
+
+# Dependencies
+node_modules/
+
+# Environment Variables (EXTREMELY CRITICAL - Contains Private Key)
+.env
+
+# Testing
+coverage/
+coverage.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
