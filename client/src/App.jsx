@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { usePrivy, useWallets } from '@privy-io/react-auth';
 import { ethers } from 'ethers';
 import abiData from './contract/Crowdfunding.json';
-import './App.css';
+
 
 const CONTRACT_ADDRESS = "0x094A7DE54D5580D618162dff1B5904f59306219B";
 const SEPOLIA_RPC = "https://eth-sepolia.g.alchemy.com/v2/HA0jJPrOJ2Aov6Qv0v4OX";
