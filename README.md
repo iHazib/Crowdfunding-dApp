@@ -4,6 +4,8 @@
 
 The platform utilizes a hybrid data model, merging hardcoded featured campaigns with real-time smart contract data fetched directly from the blockchain.
 
+Live Link: https://crowdfunding-d-app-ten.vercel.app
+
 ---
 
 ## 🚀 Technical Stack
