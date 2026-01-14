@@ -7,16 +7,14 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <PrivyProvider
-      appId="cmkebbqo80041ju0cx99x28d7" // <--- PASTE YOUR APP ID HERE
+      appId="cmkebbqo80041ju0cx99x28d7" 
       config={{
-        // This is the "better auth" part:
         loginMethods: ['wallet'], 
         appearance: {
           theme: 'dark',
           accentColor: '#6366f1',
           showWalletLoginFirst: false,
         },
-        // This creates a wallet automatically for users who login via Google/Email
         embeddedWallets: {
           createOnLogin: 'users-without-wallets',
         },
